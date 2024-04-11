@@ -45,6 +45,19 @@
       ]
     }
   },
+  "Issacar": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "mainColors": {
+      "tertiary": "#eb9234",
+      "secondary": "#EB9234"
+    }
+  },
   "Mobile": {
     "__resolveType": "website/matchers/device.ts",
     "mobile": true
@@ -334,19 +347,6 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Neutral"
-    }
-  },
-  "Issacar": {
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": "0.95",
-      "--animation-btn": "0.25s"
-    },
-    "mainColors": {
-      "tertiary": "#eb9234",
-      "secondary": "#EB9234"
     }
   }
 }
