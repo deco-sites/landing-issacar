@@ -1,5 +1,3 @@
-export default function GridImages(){
-    return(
-        <div>Grid Images</div>
-    )
+export default function GridImages() {
+  return <div>Grid Images</div>;
 }
